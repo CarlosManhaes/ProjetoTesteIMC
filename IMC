@@ -1,0 +1,10 @@
+function calcularIMC() {
+    let altura = 1.80; // altura em metros
+    let peso = 98;     // peso em kg
+    let IMC = peso / (altura * altura);
+
+    console.log("IMC:", IMC.toFixed(2));
+}
+
+// Chamando a função
+calcularIMC();
